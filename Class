@@ -20,7 +20,7 @@ public class student implements Comparable <student> {
 		return this.name.compareTo(other.name);
 	}
 	
-	public String string() {
+	public String toString() {
 		return this.name;
 	}
 	
