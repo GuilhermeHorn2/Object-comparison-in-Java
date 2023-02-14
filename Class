@@ -20,5 +20,9 @@ public class student implements Comparable <student> {
 		return this.name.compareTo(other.name);
 	}
 	
+	public String string() {
+		return this.name;
+	}
+	
 
 }
