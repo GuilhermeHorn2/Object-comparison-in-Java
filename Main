@@ -7,7 +7,7 @@ public class demo2 {
 	    student x = new student("Guilherme"); 
 	    student y = new student("Guilherme");
 	    System.out.println(x.equals(y));
-   	
+	    System.out.println(x.compareTo(y) > 0);//checking if x comes after y in alfabetical order
 	    
 		
 		
