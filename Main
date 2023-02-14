@@ -1,0 +1,22 @@
+package project1;
+
+public class demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    student x = new student("Guilherme"); 
+	    student y = new student("Guilherme");
+	    System.out.println(x.equals(y));
+   	
+	    
+		
+		
+	    
+	    
+	    
+	    
+		
+
+	}
+
+}
