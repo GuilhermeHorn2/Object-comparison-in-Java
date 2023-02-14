@@ -1,0 +1,20 @@
+package project1;
+
+public class student {
+	private String name;
+	
+	public student(String name) {
+		this.name = name;
+	}
+	
+	public boolean equals(student other) {
+		if(this.name == other.name) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+
+}
